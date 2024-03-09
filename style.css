@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&family=Tangerine:wght@400;700&display=swap");
+
+body {
+    background-color: rgb(249, 229, 209);
+    font-family: "Arial", sans-serif; /* Fallback font */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(62, 15, 15, 0.8);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+hr {
+  border: 1px solid rgb(213, 178, 178);
+}
+
+.heading {
+    font-family: "Sevillana", cursive;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 150px; 
+  height: 150px; 
+  filter: blur(4px); /* Initial blur amount */
+  transition: filter 0.2s ease; /* Smooth transition effect */
+}
+
+.profile-image:hover {
+  filter: blur(0); /* Remove blur on hover */
+}
+
+.name {
+    font-family: "Tangerine", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.0em;
+}
+
+.desc{
+  margin-bottom: 40px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(150, 110, 67);
+    padding: 8px;
+    text-align: left;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: block;
+    padding: 10px;
+    background-color: rgb(150, 110, 67);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: rgb(130, 90, 47);
+}
+
+.contact-form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(150, 110, 67);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(130, 90, 47);
+}
+
+.page-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(150, 110, 67);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.page-link:hover {
+    background-color: rgb(130, 90, 47);
+}
